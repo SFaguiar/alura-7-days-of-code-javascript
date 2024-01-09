@@ -1,9 +1,9 @@
-# alura-7-days-of-code-javascript
+# Alura #7DaysOfCode in Programming Logic with Javascript
  A repository where my progress in the #7DaysOfCode "Logic with Javascript" (https://7daysofcode.io/matricula/logica-programacao) challenge is saved. 
-## Oficial description
+## Official description
  During the 7 Days of Logic with Javascript, you will practice with the most used language in the world and learn how to use Javascript to create algorithms and solve everyday problems. Let's see how to use variables, conditionals and loop structures to solve problems that are the foundation that anyone entering the field of programming needs to know. After practicing these concepts for 7 days in a row, you will see that remembering the syntax of the commands and what each one is for will no longer be a difficulty, and you will be able to worry more about how to solve the problems and less about the programming language you are using.
 ## Day 1 (done in January 9th, 2024)
- On the first day, you will see how what seems like a simple detail can make all the difference in your code and bring the expected and correct result or, depending on how you implement the code, the same command can bring an unexpected result. . On this day, you will learn more about the if statement and Boolean operations within JS
+ On the first day, you will see how what seems like a simple detail can make all the difference in your code and bring the expected and correct result or, depending on how you implement the code, the same command can bring an unexpected result. . On this day, you will learn more about the if statement and Boolean operations within JS.
 ## Day 2
  Code lives not only on Boolean conditions and operations, so on the second day of the programming logic challenge you will learn how to work with capturing inputs and how to store this information in variables to use them during the execution of your program.
 ## Day 3
