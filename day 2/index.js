@@ -1,4 +1,3 @@
-console.log()
 let name = window.prompt("Whats your name?")
 let age = window.prompt("How old are you?")
 let proglang = window.prompt("Which programming language are you learning?")
