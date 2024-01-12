@@ -6,9 +6,9 @@
  On the first day, you will see how what seems like a simple detail can make all the difference in your code and bring the expected and correct result or, depending on how you implement the code, the same command can bring an unexpected result. . On this day, you will learn more about the if statement and Boolean operations within JS.
 ## Day 2 (done in January 11th, 2024)
  Code lives not only on Boolean conditions and operations, so on the second day of the programming logic challenge you will learn how to work with capturing inputs and how to store this information in variables to use them during the execution of your program.
-## Day 3
+## Day 3 (done in January 12th, 2024)
  On that day, you will bring together everything you saw in the previous days to create a dynamic narrative. And so that this story only ends when the person reading it wants to, you'll need to add loops to do a task over and over again!
-## Day 4
+## Day 4 (done in January 12th, 2024)
  As we are on the topic of games and narratives, how about creating a program to play against the computer? On your fourth day, you will learn how to work with randomness to create a game.
 ## Day 5
  Lists are everywhere and help us a lot to work with a large volume of information. It is very important that you know how to work with arrays and we have prepared a special day for that!

@@ -1,7 +1,7 @@
-front_courses = ['Vue', 'React']
-back_courses = ['C#', 'Java']
-all_courses = front_courses.concat(back_courses)
-chosen_courses = []
+let front_courses = ['Vue', 'React']
+let back_courses = ['C#', 'Java']
+let all_courses = front_courses.concat(back_courses)
+let chosen_courses = []
 const INVALID_ANSWER_MESSAGE = `Invalid answer! Please choose a valid answer!`
 
 alert(`Greetings! Welcome to the developer mini-guide game!`)
@@ -17,7 +17,7 @@ while (true) {
         
         if (course == 0 || course == 1 ) {
             chosen_courses.push(back_courses[course])
-            back_courses = back_courses.slice(course)
+            back_courses.splice(Number(course), 1)
             break
         } else {
             alert(INVALID_ANSWER_MESSAGE)
@@ -29,7 +29,7 @@ while (true) {
 
         if (course == 0 || course == 1 ) {
             chosen_courses.push(front_courses[course])
-            front_courses = front_courses.slice(course)
+            front_courses.splice(Number(course), 1)
             break
         } else {
             alert(INVALID_ANSWER_MESSAGE)
@@ -43,11 +43,11 @@ while (true) {
 alert(`Congratulations! You've become a expert in ${chosen_courses}!`)
 choice = prompt("Type 1 to continue specializing in the chosen area or 2 to continue developing to become Fullstack!")
 if (choice == 1) {
-    (pill == 'back') ? remaining_courses = back_courses : remaining_courses = front_courses
+    (pill == 1) ? remaining_courses = back_courses : remaining_courses = front_courses
     all_courses = chosen_courses.push(remaining_courses[0])
 } else if (choice == 2) {
     let random_course = Math.floor((Math.random() * 2)  % 1)
-    (pill == 'back') ? chosen_courses = chosen_courses.push(front_courses[random_course]) : chosen_courses = chosen_courses.push(back_courses[random_course])
+    (pill == 1) ? chosen_courses = chosen_courses.push(front_courses[random_course]) : chosen_courses = chosen_courses.push(back_courses[random_course])
 }
 alert(`You've learned ${chosen_courses.length} courses so far, which are ${chosen_courses}.`)
 
@@ -55,7 +55,7 @@ choice = prompt("Is there any other technology you would like to learn? Type 'ok
 while (choice === "ok"){
     let new_technology = prompt("Which one? Type its name.")
     chosen_courses.push(new_technology)
-    alert(`You've learned ${newTechnology}!`)
+    alert(`You've learned ${new_technology}!`)
     choice = prompt("Is there any other technology you would like to learn? Type 'ok' if yes.");
 }
 
