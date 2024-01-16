@@ -10,9 +10,9 @@
  On that day, you will bring together everything you saw in the previous days to create a dynamic narrative. And so that this story only ends when the person reading it wants to, you'll need to add loops to do a task over and over again!
 ## Day 4 (done in January 12th, 2024)
  As we are on the topic of games and narratives, how about creating a program to play against the computer? On your fourth day, you will learn how to work with randomness to create a game.
-## Day 5
+## Day 5 (done in January 16th, 2024)
  Lists are everywhere and help us a lot to work with a large volume of information. It is very important that you know how to work with arrays and we have prepared a special day for that!
-## Day 6
+## Day 6 (done in January 16th, 2024)
  After practicing how to insert and manipulate items within a list, you will understand how and when to remove a specific item from the list.
-## Day 7
+## Day 7 (done in January 16th, 2024)
  By now, you will have worked on many different projects practicing various commands and interacting with each other within Javascript. But we still haven't talked about something essential, which is the organization of our code. On the seventh and final day of the challenge, you will develop a larger project, to see how organization or lack thereof can affect your code production and often cause mistakes that you normally wouldn't make.
